@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22" started-at="2013-08-30T22:57:09Z" finished-at="2013-08-30T22:57:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22" started-at="2013-08-30T22:57:09Z" finished-at="2013-08-30T22:57:10Z">
+      <class name="com.skilledmonster.example.TestNGAnnotationBeforeClassExample">
+        <test-method status="PASS" signature="intializeBeforeClass()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@199836ed]" name="intializeBeforeClass" is-config="true" duration-ms="4" started-at="2013-08-30T18:57:10Z" finished-at="2013-08-30T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBeforeClass -->
+        <test-method status="PASS" signature="validateDifference()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@199836ed]" name="validateDifference" duration-ms="6" started-at="2013-08-30T18:57:10Z" finished-at="2013-08-30T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDifference -->
+        <test-method status="PASS" signature="intializeBeforeClass()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@199836ed]" name="intializeBeforeClass" is-config="true" duration-ms="0" started-at="2013-08-30T18:57:10Z" finished-at="2013-08-30T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBeforeClass -->
+        <test-method status="PASS" signature="validateSum()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@199836ed]" name="validateSum" duration-ms="1" started-at="2013-08-30T18:57:10Z" finished-at="2013-08-30T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSum -->
+      </class> <!-- com.skilledmonster.example.TestNGAnnotationBeforeClassExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
