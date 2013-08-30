@@ -5,7 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 /**
- * Example to demonstrate use of @BeforeClass annotation of TestNG framework
+ * Example to demonstrate use of @AfterClass annotation of TestNG framework
  * 
  * @author Jagadeesh Motamarri
  * @version 1.0
@@ -13,8 +13,7 @@ import org.testng.annotations.Test;
 public class TestNGAnnotationAfterClassExample {
 
 	@AfterClass
-	public void intializeBeforeClass() {
-		// one-time initialization code for the class before all test cases are run
+	public void oneTimeTearDown() {
 		System.out.println("@AfterClass: The annotated method will be run after all the test methods in the current class have been run.");
 	}
 
