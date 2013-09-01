@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2013-09-01T21:52:21Z" finished-at="2013-09-01T21:52:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2013-09-01T21:52:21Z" finished-at="2013-09-01T21:52:21Z">
+      <class name="com.skilledmonster.example.TestNGAnnotationTestDataProviderExample">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="init" is-config="true" duration-ms="7" started-at="2013-09-01T17:52:21Z" finished-at="2013-09-01T17:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testMultiple(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testMultiple" duration-ms="6" started-at="2013-09-01T17:52:21Z" data-provider="testMultipleInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiple -->
+        <test-method status="PASS" signature="testMultiple(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testMultiple" duration-ms="0" started-at="2013-09-01T17:52:21Z" data-provider="testMultipleInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiple -->
+        <test-method status="PASS" signature="testMultiple(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testMultiple" duration-ms="0" started-at="2013-09-01T17:52:21Z" data-provider="testMultipleInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiple -->
+        <test-method status="PASS" signature="testSum(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testSum" duration-ms="1" started-at="2013-09-01T17:52:21Z" data-provider="testSumInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testSum" duration-ms="1" started-at="2013-09-01T17:52:21Z" data-provider="testSumInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(int, int)[pri:0, instance:com.skilledmonster.example.TestNGAnnotationTestDataProviderExample@583e0ebb]" name="testSum" duration-ms="0" started-at="2013-09-01T17:52:21Z" data-provider="testSumInput" finished-at="2013-09-01T17:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+      </class> <!-- com.skilledmonster.example.TestNGAnnotationTestDataProviderExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
