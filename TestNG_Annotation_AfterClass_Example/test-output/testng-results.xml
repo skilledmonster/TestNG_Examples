@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22" started-at="2013-08-30T22:55:13Z" finished-at="2013-08-30T22:55:13Z">
+  <suite name="Default suite" duration-ms="23" started-at="2013-09-01T18:13:05Z" finished-at="2013-09-01T18:13:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22" started-at="2013-08-30T22:55:13Z" finished-at="2013-08-30T22:55:13Z">
-      <class name="com.skilledmonster.example.TestNGAnnotationBeforeClassExample">
-        <test-method status="PASS" signature="validateDifference()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@72e6f7d2]" name="validateDifference" duration-ms="9" started-at="2013-08-30T18:55:13Z" finished-at="2013-08-30T18:55:13Z">
+    <test name="Default test" duration-ms="23" started-at="2013-09-01T18:13:05Z" finished-at="2013-09-01T18:13:05Z">
+      <class name="com.skilledmonster.example.TestNGAnnotationAfterClassExample">
+        <test-method status="PASS" signature="validateDifference()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationAfterClassExample@68da4b71]" name="validateDifference" duration-ms="11" started-at="2013-09-01T14:13:05Z" finished-at="2013-09-01T14:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDifference -->
-        <test-method status="PASS" signature="validateSum()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@72e6f7d2]" name="validateSum" duration-ms="1" started-at="2013-08-30T18:55:13Z" finished-at="2013-08-30T18:55:13Z">
+        <test-method status="PASS" signature="validateSum()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationAfterClassExample@68da4b71]" name="validateSum" duration-ms="0" started-at="2013-09-01T14:13:05Z" finished-at="2013-09-01T14:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSum -->
-        <test-method status="PASS" signature="intializeBeforeClass()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationBeforeClassExample@72e6f7d2]" name="intializeBeforeClass" is-config="true" duration-ms="1" started-at="2013-08-30T18:55:13Z" finished-at="2013-08-30T18:55:13Z">
+        <test-method status="PASS" signature="oneTimeTearDown()[pri:0, instance:com.skilledmonster.example.TestNGAnnotationAfterClassExample@68da4b71]" name="oneTimeTearDown" is-config="true" duration-ms="0" started-at="2013-09-01T14:13:05Z" finished-at="2013-09-01T14:13:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- intializeBeforeClass -->
-      </class> <!-- com.skilledmonster.example.TestNGAnnotationBeforeClassExample -->
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- com.skilledmonster.example.TestNGAnnotationAfterClassExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
