@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27" started-at="2013-09-07T19:47:20Z" finished-at="2013-09-07T19:47:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27" started-at="2013-09-07T19:47:20Z" finished-at="2013-09-07T19:47:20Z">
+      <class name="com.skilledmonster.example.SingleDependencyTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.skilledmonster.example.SingleDependencyTest@781f6226]" name="init" duration-ms="11" started-at="2013-09-07T15:47:20Z" finished-at="2013-09-07T15:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="process()[pri:0, instance:com.skilledmonster.example.SingleDependencyTest@781f6226]" name="process" duration-ms="1" started-at="2013-09-07T15:47:20Z" depends-on-methods="com.skilledmonster.example.SingleDependencyTest.init" finished-at="2013-09-07T15:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.skilledmonster.example.SingleDependencyTest@781f6226]" name="stop" duration-ms="1" started-at="2013-09-07T15:47:20Z" depends-on-methods="com.skilledmonster.example.SingleDependencyTest.process" finished-at="2013-09-07T15:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.skilledmonster.example.SingleDependencyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
