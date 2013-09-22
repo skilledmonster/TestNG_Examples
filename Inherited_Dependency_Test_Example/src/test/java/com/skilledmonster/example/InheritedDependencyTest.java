@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  * @author Jagadeesh Motamarri
  * @version 1.0
  */
-public class InheritedDependencyTest extends DependencyTest {
+public class InheritedDependencyTest extends BaseTest {
 
 	@Test(dependsOnMethods = { "start" })
 	public void process() {

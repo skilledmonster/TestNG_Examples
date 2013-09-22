@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 /**
- * Example to demonstrate use of @Test annotation of TestNG framework
+ * Example to demonstrate use of @Test annotation and dataProvider attribute of TestNG framework
  * 
  * @author Jagadeesh Motamarri
  * @version 1.0
@@ -29,9 +29,9 @@ public class TestNGAnnotationTestDataProviderExample {
 		Assert.assertEquals(result, a + b);
 	}
 
-	@Test(dataProvider = "testMultipleInput")
-	public void testMultiple(int a, int b) {
-		System.out.println("@Test : testMultiple()");
+	@Test(dataProvider = "testMultiplyInput")
+	public void testMultiply(int a, int b) {
+		System.out.println("@Test : testMultiply()");
 		int result = service.multiply(a, b);
 		Assert.assertEquals(result, a * b);
 	}
@@ -42,7 +42,7 @@ public class TestNGAnnotationTestDataProviderExample {
 	}
 
 	@DataProvider
-	public Object[][] testMultipleInput() {
+	public Object[][] testMultiplyInput() {
 		return new Object[][] { { 5, 5 }, { 10, 10 }, { 20, 20 } };
 	}
 

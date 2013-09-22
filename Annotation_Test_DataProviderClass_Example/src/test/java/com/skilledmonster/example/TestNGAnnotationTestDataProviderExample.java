@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.skilledmonster.common.TestNGDataProvider;
 
 /**
- * Example to demonstrate use of @Test annotation of TestNG framework
+ * Example to demonstrate use of dataProviderClass and dataProvide attributes of TestNG framework
  * 
  * @author Jagadeesh Motamarri
  * @version 1.0

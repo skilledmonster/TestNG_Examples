@@ -1,7 +1,7 @@
 package com.skilledmonster.example;
 
 /**
- * Simple calculator service to demonstrate TestNG Framework
+ * Calculator Service Interface to demonstrate TestNG examples
  * 
  * @author Jagadeesh Motamarri
  * @version 1.0

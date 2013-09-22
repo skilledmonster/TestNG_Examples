@@ -14,7 +14,6 @@ public class TestNGAnnotationBeforeClassExample {
 
 	@BeforeClass
 	public void oneTimeSetUp() {
-		// one-time initialization code for the class before all test cases are run
 		System.out.println("@BeforeClass: The annotated method will be run before the first test method in the current class is invoked.");
 	}
 
